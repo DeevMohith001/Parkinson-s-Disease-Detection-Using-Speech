@@ -1,0 +1,63 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+**/venv/
+**/.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+.streamlit/secrets.toml
+**/secrets.toml
+kaggle.json
+
+# Dataset & Sensitive Data
+*.wav
+Demographics_age_sex.xlsx
+23849127/
+
+# Temporary Files & Logs
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
